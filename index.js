@@ -111,7 +111,6 @@ module.exports = {
     "linebreak-style": 2,
     "new-parens": 2,
     "no-array-constructor": 2,
-    "no-continue": 2,
     "no-lonely-if": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": 2,
