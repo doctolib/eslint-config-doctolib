@@ -7,7 +7,6 @@ module.exports = {
   },
 
   "rules": {
-    "no-magic-numbers": 0,
     "mocha/no-exclusive-tests": 2
   },
 
