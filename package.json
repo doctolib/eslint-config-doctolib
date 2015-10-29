@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-doctolib",
+  "version": "0.0.0",
+  "description": "ESLint configuration used in Doctolib projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doctolib/eslint-config-doctolib.git"
+  },
+  "author": "Doctolib <tech@doctolib.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doctolib/eslint-config-doctolib/issues"
+  },
+  "homepage": "https://github.com/doctolib/eslint-config-doctolib#readme"
+}
