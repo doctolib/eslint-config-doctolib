@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-doctolib",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "ESLint configuration used in Doctolib projects.",
   "main": "index.js",
   "repository": {
