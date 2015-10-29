@@ -5,7 +5,13 @@ module.exports = {
     "browser": true
   },
 
+  "ecmaFeatures": {
+    "jsx": true
+  },
+
   "rules": {
+    "jsx-quotes": 2,
+
     "react/display-name": 2,
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 2,

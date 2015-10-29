@@ -29,8 +29,7 @@ module.exports = {
     "templateStrings": true,
     "unicodeCodePointEscapes": true,
     "globalReturn": true,
-    "jsx": true,
-    "experimentalObjectRestSpread": true
+    "experimentalObjectRestSpread": false
   },
 
   "rules": {
@@ -108,7 +107,6 @@ module.exports = {
     "consistent-this": [1, "self"],
     "eol-last": 2,
     "indent": [2, 2, {"SwitchCase": 1}],
-    "jsx-quotes": 2,
     "key-spacing": 2,
     "linebreak-style": 2,
     "new-parens": 2,
