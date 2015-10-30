@@ -84,8 +84,6 @@ module.exports = {
     "wrap-iife": 2,
     "yoda": 2,
 
-    "strict": [2, "global"],
-
     "init-declarations": 0,
     "no-catch-shadow": 2,
     "no-label-var": 2,

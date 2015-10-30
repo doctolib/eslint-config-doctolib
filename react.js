@@ -14,6 +14,8 @@ module.exports = {
 
     "no-extra-parens": 0,
 
+    "strict": [2, "never"],
+
     "react/display-name": 2,
     "react/forbid-prop-types": 1,
     "react/jsx-boolean-value": 2,
