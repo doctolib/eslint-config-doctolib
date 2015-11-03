@@ -12,6 +12,8 @@ npm install eslint-config-doctolib
 
 ### Basic
 
+Require [babel-eslint](https://github.com/babel/babel-eslint).
+
 ```js
 // .eslintrc
 {
@@ -21,6 +23,8 @@ npm install eslint-config-doctolib
 
 ### Test
 
+Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha).
+
 ```js
 // .eslintrc
 {
@@ -29,6 +33,8 @@ npm install eslint-config-doctolib
 ```
 
 ### React
+
+Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
 
 ```js
 // .eslintrc

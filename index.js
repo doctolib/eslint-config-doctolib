@@ -1,6 +1,8 @@
 module.exports = {
   "extends": "eslint:recommended",
 
+  "parser": "babel-eslint",
+
   "env": {
     "commonjs": true,
     "es6": true
@@ -33,7 +35,6 @@ module.exports = {
   },
 
   "rules": {
-    "no-extra-parens": 2,
     "no-unexpected-multiline": 2,
 
     "accessor-pairs": 2,
