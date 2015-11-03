@@ -12,8 +12,6 @@ module.exports = {
   "rules": {
     "jsx-quotes": 2,
 
-    "no-extra-parens": 0,
-
     "strict": [2, "never"],
 
     "react/display-name": 2,

@@ -33,7 +33,6 @@ module.exports = {
   },
 
   "rules": {
-    "no-extra-parens": 2,
     "no-unexpected-multiline": 2,
 
     "accessor-pairs": 2,
