@@ -13,7 +13,7 @@ npm install eslint-config-doctolib
 ### Basic
 
 ```js
-// .jshintrc
+// .eslintrc
 {
   "extends": "doctolib"
 }
@@ -22,7 +22,7 @@ npm install eslint-config-doctolib
 ### Test
 
 ```js
-// .jshintrc
+// .eslintrc
 {
   "extends": "doctolib/test"
 }
@@ -31,7 +31,7 @@ npm install eslint-config-doctolib
 ### React
 
 ```js
-// .jshintrc
+// .eslintrc
 {
   "extends": "doctolib/react"
 }
