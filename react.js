@@ -14,8 +14,8 @@ module.exports = {
 
     "strict": [2, "never"],
 
-    "react/display-name": 2,
-    "react/forbid-prop-types": 1,
+    "react/display-name": 0,
+    "react/forbid-prop-types": 0,
     "react/jsx-boolean-value": 2,
     "react/jsx-closing-bracket-location": 2,
     "react/jsx-curly-spacing": 2,
