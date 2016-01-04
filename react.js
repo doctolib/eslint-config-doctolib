@@ -22,8 +22,8 @@ module.exports = {
     "react/jsx-indent-props": [2, 2],
     "react/jsx-no-duplicate-props": 2,
     "react/jsx-no-undef": 2,
-    "react/jsx-sort-prop-types": 1,
-    "react/jsx-sort-props": 1,
+    "react/jsx-sort-prop-types": 0,
+    "react/jsx-sort-props": 0,
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/no-danger": 1,
@@ -36,7 +36,7 @@ module.exports = {
     "react/react-in-jsx-scope": 2,
     "react/require-extension": 2,
     "react/self-closing-comp": 2,
-    "react/sort-comp": 1,
+    "react/sort-comp": 0,
     "react/wrap-multilines": 2
   },
 
