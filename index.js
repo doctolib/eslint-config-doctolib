@@ -39,6 +39,7 @@ module.exports = {
 
     "accessor-pairs": 2,
     "block-scoped-var": 2,
+    "comma-dangle": [2, "always-multiline"],
     "complexity": [1, 10],
     "consistent-return": 2,
     "dot-location": [2, "property"],
