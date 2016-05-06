@@ -4,7 +4,7 @@ ESLint configuration used in Doctolib projects.
 
 ## Install
 
-```
+```sh
 npm install eslint-config-doctolib
 ```
 
@@ -15,9 +15,9 @@ npm install eslint-config-doctolib
 Require [babel-eslint](https://github.com/babel/babel-eslint).
 
 ```js
-// .eslintrc
+// .eslintrc.js
 {
-  "extends": "doctolib"
+  extends: 'doctolib',
 }
 ```
 
@@ -26,9 +26,9 @@ Require [babel-eslint](https://github.com/babel/babel-eslint).
 Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha).
 
 ```js
-// .eslintrc
+// .eslintrc.js
 {
-  "extends": "doctolib/test"
+  extends: 'doctolib/test',
 }
 ```
 
@@ -37,9 +37,9 @@ Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin
 Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
 
 ```js
-// .eslintrc
+// .eslintrc.js
 {
-  "extends": "doctolib/react"
+  extends: 'doctolib/react',
 }
 ```
 
