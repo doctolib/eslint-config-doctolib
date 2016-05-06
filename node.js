@@ -1,7 +1,7 @@
 module.exports = {
-  "extends": "doctolib",
+  extends: 'doctolib',
 
-  "env": {
-    "node": true
-  }
+  env: {
+    node: true,
+  },
 };

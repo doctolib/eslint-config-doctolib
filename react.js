@@ -1,59 +1,59 @@
 module.exports = {
-  "extends": "doctolib",
+  extends: 'doctolib',
 
-  "env": {
-    "browser": true
+  env: {
+    browser: true,
   },
 
-  "ecmaFeatures": {
-    "jsx": true
+  ecmaFeatures: {
+    jsx: true,
   },
 
-  "rules": {
-    "jsx-quotes": 2,
+  rules: {
+    'jsx-quotes': 'error',
 
-    "strict": [2, "never"],
+    'strict': ['error', 'never'],
 
-    "react/display-name": 0,
-    "react/forbid-prop-types": 0,
-    "react/jsx-boolean-value": 2,
-    "react/jsx-closing-bracket-location": 2,
-    "react/jsx-curly-spacing": 2,
-    "react/jsx-equals-spacing": 2,
-    "react/jsx-handler-names": 2,
-    "react/jsx-indent": [2, 2],
-    "react/jsx-indent-props": [2, 2],
-    "react/jsx-key": 2,
-    "react/jsx-max-props-per-line": [2, {maximum: 3}],
-    "react/jsx-no-bind": 2,
-    "react/jsx-no-duplicate-props": 2,
-    "react/jsx-no-literals": 0,
-    "react/jsx-no-undef": 2,
-    "react/jsx-sort-props": 0,
-    "react/jsx-space-before-closing": 2,
-    "react/jsx-uses-react": 2,
-    "react/jsx-uses-vars": 2,
-    "react/no-danger": 1,
-    "react/no-deprecated": 2,
-    "react/no-did-mount-set-state": 2,
-    "react/no-did-update-set-state": 2,
-    "react/no-direct-mutation-state": 2,
-    "react/no-multi-comp": 2,
-    "react/no-set-state": 0,
-    "react/no-string-refs": 0,
-    "react/no-unknown-property": 1,
-    "react/prop-types": 2,
-    "react/prefer-es6-class": 2,
-    "react/prefer-stateless-function": 0,
-    "react/react-in-jsx-scope": 2,
-    "react/require-extension": 2,
-    "react/self-closing-comp": 2,
-    "react/sort-comp": [1, {
+    'react/display-name': 'off',
+    'react/forbid-prop-types': 'off',
+    'react/jsx-boolean-value': 'error',
+    'react/jsx-closing-bracket-location': 'error',
+    'react/jsx-curly-spacing': 'error',
+    'react/jsx-equals-spacing': 'error',
+    'react/jsx-handler-names': 'error',
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
+    'react/jsx-key': 'error',
+    'react/jsx-max-props-per-line': ['error', {maximum: 3}],
+    'react/jsx-no-bind': 'error',
+    'react/jsx-no-duplicate-props': 'error',
+    'react/jsx-no-literals': 'off',
+    'react/jsx-no-undef': 'error',
+    'react/jsx-sort-props': 'off',
+    'react/jsx-space-before-closing': 'error',
+    'react/jsx-uses-react': 'error',
+    'react/jsx-uses-vars': 'error',
+    'react/no-danger': 'warn',
+    'react/no-deprecated': 'error',
+    'react/no-did-mount-set-state': 'error',
+    'react/no-did-update-set-state': 'error',
+    'react/no-direct-mutation-state': 'error',
+    'react/no-multi-comp': 'error',
+    'react/no-set-state': 'off',
+    'react/no-string-refs': 'off',
+    'react/no-unknown-property': 'warn',
+    'react/prop-types': 'error',
+    'react/prefer-es6-class': 'error',
+    'react/prefer-stateless-function': 'off',
+    'react/react-in-jsx-scope': 'error',
+    'react/require-extension': 'error',
+    'react/self-closing-comp': 'error',
+    'react/sort-comp': ['warn', {
       order: [
         'static-methods',
         'lifecycle',
         'everything-else',
-        'render'
+        'render',
       ],
       groups: {
         lifecycle: [
@@ -77,15 +77,15 @@ module.exports = {
           'shouldComponentUpdate',
           'componentWillUpdate',
           'componentDidUpdate',
-          'componentWillUnmount'
-        ]
-      }
+          'componentWillUnmount',
+        ],
+      },
     }],
-    "react/sort-prop-types": 0,
-    "react/wrap-multilines": 2
+    'react/sort-prop-types': 'off',
+    'react/wrap-multilines': 'error',
   },
 
-  "plugins": [
-    "react"
-  ]
+  plugins: [
+    'react',
+  ],
 };
