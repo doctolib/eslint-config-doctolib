@@ -35,6 +35,7 @@ module.exports = {
   },
 
   rules: {
+    'eqeqeq': 'error',
     'no-unexpected-multiline': 'error',
     'init-declarations': 'off',
     'no-catch-shadow': 'error',
