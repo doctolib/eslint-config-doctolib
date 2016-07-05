@@ -1,14 +1,13 @@
 module.exports = {
   extends: 'doctolib',
-
   env: {
     browser: true,
   },
-
-  ecmaFeatures: {
-    jsx: true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
-
   rules: {
     'jsx-quotes': 'error',
 
@@ -20,6 +19,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': 'error',
     'react/jsx-curly-spacing': 'error',
     'react/jsx-equals-spacing': 'error',
+    'react/jsx-filename-extension': ['error', {extensions: ['.js']}],
     'react/jsx-first-prop-new-line': ['error', 'multiline'],
     'react/jsx-handler-names': 'error',
     'react/jsx-indent': ['error', 2],
@@ -36,6 +36,7 @@ module.exports = {
     'react/jsx-space-before-closing': 'error',
     'react/jsx-uses-react': 'error',
     'react/jsx-uses-vars': 'error',
+    'react/no-comment-textnodes': 'error',
     'react/no-danger': 'error',
     'react/no-deprecated': 'error',
     'react/no-did-mount-set-state': 'error',
@@ -46,12 +47,14 @@ module.exports = {
     'react/no-string-refs': 'off',
     'react/no-is-mounted': 'error',
     'react/no-unknown-property': 'error',
+    'react/no-render-return-value': 'error',
     'react/prop-types': 'error',
     'react/prefer-es6-class': 'error',
     'react/prefer-stateless-function': 'off',
     'react/react-in-jsx-scope': 'error',
     'react/require-extension': 'error',
     'react/require-render-return': 'error',
+    'react/require-optimization': 'off',
     'react/self-closing-comp': 'error',
     'react/sort-comp': ['error', {
       order: [
@@ -89,7 +92,6 @@ module.exports = {
     'react/sort-prop-types': 'off',
     'react/wrap-multilines': 'error',
   },
-
   plugins: [
     'react',
   ],
