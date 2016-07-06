@@ -1,39 +1,20 @@
 module.exports = {
   extends: 'eslint:recommended',
-
   parser: 'babel-eslint',
-
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+    },
+  },
   env: {
     commonjs: true,
     es6: true,
   },
-
-  ecmaFeatures: {
-    arrowFunctions: true,
-    binaryLiterals: true,
-    blockBindings: true,
-    classes: true,
-    defaultParams: true,
-    destructuring: true,
-    forOf: true,
-    generators: true,
-    modules: true,
-    objectLiteralComputedProperties: true,
-    objectLiteralDuplicateProperties: true,
-    objectLiteralShorthandMethods: true,
-    objectLiteralShorthandProperties: true,
-    octalLiterals: true,
-    regexUFlag: true,
-    regexYFlag: true,
-    restParams: true,
-    spread: true,
-    superInFunctions: true,
-    templateStrings: true,
-    unicodeCodePointEscapes: true,
-    globalReturn: true,
-    experimentalObjectRestSpread: false,
-  },
-
+  plugins: [
+    'babel',
+  ],
   rules: {
     'eqeqeq': 'error',
     'no-unexpected-multiline': 'error',
@@ -105,5 +86,16 @@ module.exports = {
     'prefer-spread': 'error',
     'prefer-template': 'error',
     'require-yield': 'error',
+
+    // Mostly work around failing eslint ES7 rules
+    'babel/object-curly-spacing': ['error', 'never'],
+    'babel/func-params-comma-dangle': ['error', 'always-multiline'],
+    'babel/generator-star-spacing': 'error',
+    'babel/new-cap': 'off',
+    'babel/array-bracket-spacing': 'error',
+    'babel/object-shorthand': 'error',
+    'babel/arrow-parens': ['error', 'as-needed'],
+    'babel/no-await-in-loop': 'error',
+    'babel/flow-object-type': 'error',
   },
 };
