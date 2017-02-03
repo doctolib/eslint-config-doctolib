@@ -9,7 +9,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
-    'max-len': ['warn', 120, 4],
+    'max-len': ['warn', 120, 2],
     'no-multiple-empty-lines': ['error', { max: 1 }],
     'no-nested-ternary': 'off',
     'no-plusplus': 'off',
