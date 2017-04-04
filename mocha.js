@@ -1,12 +1,8 @@
 module.exports = {
-  extends: 'doctolib',
   env: {
     mocha: true,
-    node: true,
   },
-  plugins: [
-    'mocha',
-  ],
+  plugins: ['mocha'],
   rules: {
     'mocha/handle-done-callback': 'error',
     'mocha/no-exclusive-tests': 'error',

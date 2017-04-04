@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-doctolib",
-  "version": "3.1.0",
+  "version": "4.0.0",
   "description": "ESLint configuration used in Doctolib projects.",
   "main": "index.js",
   "repository": {
@@ -14,10 +14,6 @@
   },
   "homepage": "https://github.com/doctolib/eslint-config-doctolib#readme",
   "peerDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-config-airbnb": "latest",
-    "eslint-plugin-import": "^2.1.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.6.0"
+    "eslint-config-airbnb": "^14.1.0"
   }
 }

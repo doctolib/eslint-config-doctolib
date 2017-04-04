@@ -5,14 +5,12 @@ ESLint configuration used in Doctolib projects.
 ## Install
 
 ```sh
-npm install eslint-config-doctolib
+yarn add eslint-config-doctolib --dev
 ```
 
 ## Usage
 
 ### Basic
-
-Require [babel-eslint](https://github.com/babel/babel-eslint).
 
 ```js
 // .eslintrc.js
@@ -21,25 +19,21 @@ Require [babel-eslint](https://github.com/babel/babel-eslint).
 }
 ```
 
-### Test
-
-Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-mocha](https://github.com/lo1tuma/eslint-plugin-mocha).
+### Mocha tests
 
 ```js
 // .eslintrc.js
 {
-  extends: 'doctolib/test',
+  extends: ['doctolib', 'doctolib/mocha'],
 }
 ```
 
 ### React
 
-Require [babel-eslint](https://github.com/babel/babel-eslint) and [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react).
-
 ```js
 // .eslintrc.js
 {
-  extends: 'doctolib/react',
+  extends: ['doctolib', 'doctolib/react'],
 }
 ```
 
