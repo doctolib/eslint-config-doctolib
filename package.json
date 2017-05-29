@@ -14,6 +14,6 @@
   },
   "homepage": "https://github.com/doctolib/eslint-config-doctolib#readme",
   "peerDependencies": {
-    "eslint-config-airbnb": "^14.1.0"
+    "eslint-config-airbnb": "^15.0.1"
   }
 }
