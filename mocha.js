@@ -13,4 +13,4 @@ module.exports = {
     'mocha/valid-suite-description': 'off',
     'mocha/valid-test-description': 'off',
   },
-};
+}
