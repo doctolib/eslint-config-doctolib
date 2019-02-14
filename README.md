@@ -1,11 +1,11 @@
-# eslint-config-doctolib
+# eslint-config-zipper
 
-ESLint configuration used in Doctolib projects.
+ESLint configuration used in Doctolib zipper project.
 
 ## Install
 
 ```sh
-yarn add eslint-config-doctolib --dev
+yarn add eslint-config-zipper --dev
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ yarn add eslint-config-doctolib --dev
 ```js
 // .eslintrc.js
 {
-  extends: 'doctolib',
+  extends: 'zipper',
 }
 ```
 
@@ -24,7 +24,7 @@ yarn add eslint-config-doctolib --dev
 ```js
 // .eslintrc.js
 {
-  extends: ['doctolib', 'doctolib/mocha'],
+  extends: ['zipper', 'zipper/mocha'],
 }
 ```
 
@@ -33,7 +33,7 @@ yarn add eslint-config-doctolib --dev
 ```js
 // .eslintrc.js
 {
-  extends: ['doctolib', 'doctolib/react'],
+  extends: ['zipper', 'zipper/react'],
 }
 ```
 

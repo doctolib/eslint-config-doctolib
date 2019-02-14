@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-doctolib",
+  "name": "eslint-config-zipper",
   "version": "5.0.0",
-  "description": "ESLint configuration used in Doctolib projects.",
+  "description": "ESLint configuration used in Doctolib zipper project.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -10,9 +10,9 @@
   "author": "Doctolib <tech@doctolib.fr>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/doctolib/eslint-config-doctolib/issues"
+    "url": "https://github.com/doctolib/eslint-config-zipper/issues"
   },
-  "homepage": "https://github.com/doctolib/eslint-config-doctolib#readme",
+  "homepage": "https://github.com/doctolib/eslint-config-zipper#readme",
   "peerDependencies": {
     "eslint-config-airbnb": "^15.0.1"
   }

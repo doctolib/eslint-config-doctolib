@@ -23,9 +23,9 @@ module.exports = {
     'no-shadow': 'off',
     'no-param-reassign': 'off',
     'no-mixed-operators': 'off',
-    'no-use-before-define': ['error', { functions: false, classes: false }],
+    'no-use-before-define': ['error', {functions: false, classes: false}],
     'no-confusing-arrow': 'off',
 
     'import/prefer-default-export': 'off',
   },
-}
+};
